@@ -56,7 +56,7 @@ fontpath='PATH_TO_DETERMINATION_MONO'
 sansfontpath='PATH_TO_SANS_FONT'
 papyrusfontpath='PATH_TO_PAPYRUS_FONT'
 fontsize=32
-#fnt=ImageFont.truetype(fontpath,fontsize)
+fnt=ImageFont.truetype(fontpath,fontsize)
 sansfnt=ImageFont.truetype(sansfontpath,fontsize)
 papyrusfnt=ImageFont.truetype(papyrusfontpath,fontsize)
 # Example of creating an animated dialogue is below:
