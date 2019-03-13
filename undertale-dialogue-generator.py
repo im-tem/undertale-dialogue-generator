@@ -49,7 +49,7 @@ def dialoganim(faces,hoffset,fnt,phrase,style):
             faceframe=faceframe+1
         else:
             faceframe=0
-        pic=createundertaledialog(hoffset,faces_new[faceframe],fnt,i,style)
+        pic=createundertaledialog(faces_new[faceframe],hoffset,fnt,i,style)
         frames.append(pic)
     return frames
 fontpath='PATH_TO_DETERMINATION_MONO'
