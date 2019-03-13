@@ -32,8 +32,8 @@ There are four methods that you can use:
 #### Little function to transform string into list for using in dialoganim
 #### string - String to transform
 #### This function returns list
-# Links
-![Determination Mono](https://fontsrepo.com/determination-free-font/)
-![Faces](https://www.spriters-resource.com/pc_computer/undertale/) (little note: it's better to use 90x96 faces)
 
+# Links
+##### ![Determination Mono](https://fontsrepo.com/determination-free-font/)
+##### ![Faces](https://www.spriters-resource.com/pc_computer/undertale/) (little note: it's better to use 90x96 faces)
 ###### UNDERTALE and DELTARUNE are trademarks of Toby Fox
