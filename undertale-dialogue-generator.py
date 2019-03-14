@@ -12,14 +12,14 @@ def strtolist(string):
     emptylist.append(string)
     return emptylist
 def createundertaledialog(face,hoffset,fnt,phrase,style):
-    img=Image.new('RGB',(512,128),color=(255,255,255))
+    img=Image.new('RGBA',(512,128),color=(255,255,255,255))
     ti=Image.open(face)
     draw=ImageDraw.Draw(img)
     if style=="deltarune":
         fontsize=24
         initfont()
-        background=Image.open(DELTARUNEBORDER)
-        img.paste(background,(0,0))
+        img=Image.open(DELTARUNEBORDER)
+        draw=ImageDraw.Draw(img)
         voffset=22
     else:
         fontsize=32
@@ -27,7 +27,7 @@ def createundertaledialog(face,hoffset,fnt,phrase,style):
         voffset=16
         draw.rectangle(((5,5),(511-6,127-6)),fill="black",outline=None)
     img.paste(ti,(hoffset,16))
-    draw.text((116,voffset),phrase,font=fnt,fill=(255,255,255))
+    draw.text((116,voffset),phrase,font=fnt,fill=(255,255,255,255))
     return img
 def dialoganim(faces,hoffset,fnt,phrase,style):
     curphrase=''
